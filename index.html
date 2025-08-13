@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a Mi Portafolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="assets/Imagenes/Angelo foto.jpg" alt="Foto de Perfil">
+                </div>
+                <div class="about-description">
+                    <p>Hola, soy Angelo Del Aguila, estudiante de Ingeniería de Sistemas e Informática.
+                    Actualmente estoy aprendiendo programación y desarrollo de software, 
+                    con un especial interés en el desarrollo web. Me motiva seguir aprendiendo 
+                    y aplicar mis conocimientos en proyectos que me ayuden a crecer como desarrollador..</p>
+                    <button id="download-cv">¿Quieres saber más?</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Proyectos" -->
+    <section id="projects" class="section" style="display:none;">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div id="projects-list" class="projects-list">
+                <!-- Los proyectos se cargarán aquí dinámicamente -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Contacto" -->
+    <section id="contact" class="section" style="display:none;">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-row">
+                <div class="contact-item">
+                    <div class="about-photo">
+                        <img src="assets/Iconos/gmail icono.png" alt="Gmail Icono">
+                    </div>
+                    <i class="fa fa-envelope"></i>
+                    <p>Puedes contactarme por correo electrónico: <a href="19131b0486@unapiquitos.edu.pe">19131b0486@unapiquitos.edu.pe</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="about-photo">
+                        <img src="assets/Iconos/Github icono.png" alt="Github Icono">
+                    </div>
+                    <i class="fa fa-github"></i>
+                    <p>Puedes visitar mi GitHub: <a href="https://github.com/AngeloDelAguila" target="_blank">AngeloDelAguila</a></p>
+                </div>
+                <div class="contact-item">
+                    <div class="about-photo">
+                        <img src="assets/Iconos/linkedin icono.png" alt="LinkedIn Icono">
+                    </div>
+                    <i class="fa fa-linkedin"></i>
+                    <p>Puedes conectarte conmigo en LinkedIn: <a href="https://www.linkedin.com/in/angelo-del-aguila-5b3839188?" target="_blank">Mi Perfil de LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Mi Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
